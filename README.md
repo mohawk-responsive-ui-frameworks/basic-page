@@ -198,10 +198,3 @@ Take a moment to read through the page we've found.
 The class we want to use from this is the `img-fluid`. If we apply that to our `<img>` element and try resizing our window the image will now shrink and grow along with the browser's window.
 
 Try to now center the image. You can see the final result to check your work [here](.readme-assets/jumbotron-image.md).
-
-
-
-
-
-
-## Footer
