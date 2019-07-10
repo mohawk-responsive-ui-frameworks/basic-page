@@ -122,6 +122,29 @@ If done correctly you should see a page that looks like this:
 
 ***&mdash; Documentation(https://getbootstrap.com/docs/4.3/components/navbar/#nav)***
 
+The code in full should look like:
+
+```html
+<!-- START: header -->
+<header class="navbar navbar-dark bg-dark navbar-expand">
+	<a class="navbar-brand" href="#">Basic Page</a>
+	<nav>
+		<ul class="navbar-nav">
+			<li class="nav-item">
+				<a class="nav-link" href="#">About</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Gallery</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Contact</a>
+			</li>
+		</ul>
+	</nav>
+</header>
+<!-- END: header -->
+```
+
 
 
 
