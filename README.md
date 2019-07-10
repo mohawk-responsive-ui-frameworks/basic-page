@@ -4,6 +4,14 @@ In this activity we will create a basic web page using the Bootstrap UI framewor
 
 Using Bootstrap heavily relies on referencing its documentation. It's not important to memorize how to use each of the components you're going to be introduced to throughout the course. Instead of memorizing how to use each component you're better off having a firm grasp of the fundamentals of HTML and CSS and know when and where in Bootstrap's documentation to look in order to implement its various components. In this exercise each component you will be told to implement will be accompanied by a link to the appropriate documentation at the **bottom** of each section.
 
+***
+- [Header](#header)
+	- [Colour Schemes](#colour-schemes)
+	- [Brand](#brand)
+	- [Navigation](#navigation)
+- [Jumbotron](#jumbotron)
+***
+
 
 
 
@@ -24,7 +32,7 @@ We can see the documentation's header uses the `<header>` element. We could use 
 ***&mdash; [Documentation](https://getbootstrap.com/docs/4.3/components/navbar/)***
 
 
-### Color Schemes
+### Colour Schemes
 
 Reload your page and verify the `<header>` element is added to your page. It should be there but nothing has changed. We need to add some _classes_ to our `<header>` element. If we reference the documentation above there are a few code examples. Lets apply the classes from the first example into our code. Feel free to use any of the three listed examples but this activity will assume you applied the classes `navbar`, `navbar-dark`, and `bg-dark`.
 
@@ -149,6 +157,17 @@ The code in full should look like:
 
 
 ## Jumbotron
+
+Bootstrap comes with a _jumbotron_ component show showcasing hero unit style content. In other words a large web banner that's often the first visual element encountered on some web pages. Take a moment to read the [documentation](https://getbootstrap.com/docs/4.3/components/jumbotron/) on it.
+
+Now that we have some experience referencing Bootstrap's documentation from implementing our header, try implementing a jumbotron that meets the following criteria:
+
+1. Contains a heading that reads: _Welcome_
+1. Contains _lead_ text underneath it that reads: _This is my first basic webpage made using Bootstrap._
+
+To check if you implemented this correctly check out [this reference](.readme-assets/jumbotron.md).
+
+***&mdash; [Documentation](https://getbootstrap.com/docs/4.3/components/jumbotron/)***
 
 
 
