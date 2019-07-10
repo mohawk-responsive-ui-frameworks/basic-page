@@ -10,6 +10,7 @@ Using Bootstrap heavily relies on referencing its documentation. It's not import
 	- [Brand](#brand)
 	- [Navigation](#navigation)
 - [Jumbotron](#jumbotron)
+	- [Responsive Image](#responsive-image)
 ***
 
 
@@ -30,6 +31,7 @@ We can see the documentation's header uses the `<header>` element. We could use 
 ```
 
 ***&mdash; [Documentation](https://getbootstrap.com/docs/4.3/components/navbar/)***
+
 
 
 ### Colour Schemes
@@ -55,6 +57,7 @@ If done correctly your page should look like this:
 ***&mdash; [Documentation](https://getbootstrap.com/docs/4.3/components/navbar/#color-schemes)***
 
 
+
 ### Brand
 
 If we reload our page now we'll see there's a dark strip at the very top. It's so narrow because there's no content in it. Take a moment and read through the [supported content section](https://getbootstrap.com/docs/4.3/components/navbar/#supported-content) to get a rough overview of what kind of content we can add into our header.
@@ -72,6 +75,7 @@ If done correctly your page should look like this:
 ![Header with brand aligned to its left](.readme-assets/header-brand.png)
 
 ***&mdash; [Documentation](https://getbootstrap.com/docs/4.3/components/navbar/#brand)***
+
 
 
 ### Navigation
@@ -171,12 +175,31 @@ To check if you implemented this correctly check out [this reference](.readme-as
 
 
 
+### Responsive Image
 
-## Content Sections
+We're going to add one last element into our jumbotron, an image. Add the following line of HTML to the end of your jumbotron's markup:
 
-### Responsive Images
+```html
+<img src="images/bootstrap-logo.svg" alt="Bootstrap's logo" />
+```
 
-### Other Utility Classes
+We should see the image from the [Bootstrap doc's home page](https://getbootstrap.com/) directly under our lead text. If we resize the width of the browser you'll notice the image doesn't shrink alongside it and we can scroll through our page horizontally. Lets make this image responsive.
+
+If we want to make an image responsive and we're unsure where in the documentation to look, we can use its search feature located on the top left of the page, under the header of the _Documentation_ section.
+
+![Location of search field in Bootstrap's documentation](.readme-assets/search-location.png)
+
+Start typing in _responsive_ into the search field. You should get a result listed with the text ***Images / Responsive images*** that will lead to [this page](https://getbootstrap.com/docs/4.3/content/images/#responsive-images):
+
+![Search results](.readme-assets/search-results.png)
+
+Take a moment to read through the page we've found.
+
+The class we want to use from this is the `img-fluid`. If we apply that to our `<img>` element and try resizing our window the image will now shrink and grow along with the browser's window.
+
+Try to now center the image. You can see the final result to check your work [here](.readme-assets/jumbotron-image.md).
+
+
 
 
 
