@@ -204,6 +204,8 @@ Try to now center the image. You can see the final result to check your work [he
 
 ## Final Notes
 
+You can compare your results with [this page](.readme-assets/final-result.md).
+
 If anything in this activity (or future activities) is confusing, try completing the parts you're unsure of again and taking the time to read the documentation slowly and properly. As always feel free to ask for help on Discord.
 
 Don't feel obligated to memorize how to implement something like a navbar component or even something as simple as a jumbotron. Even after years of experience highly skilled developers still constantly reference documentation, especially so with Bootstrap.
