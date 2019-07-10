@@ -11,6 +11,7 @@ Using Bootstrap heavily relies on referencing its documentation. It's not import
 	- [Navigation](#navigation)
 - [Jumbotron](#jumbotron)
 	- [Responsive Image](#responsive-image)
+- [Final Notes](#final-notes)
 ***
 
 
@@ -198,3 +199,13 @@ Take a moment to read through the page we've found.
 The class we want to use from this is the `img-fluid`. If we apply that to our `<img>` element and try resizing our window the image will now shrink and grow along with the browser's window.
 
 Try to now center the image. You can see the final result to check your work [here](.readme-assets/jumbotron-image.md).
+
+
+
+## Final Notes
+
+If anything in this activity (or future activities) is confusing, try completing the parts you're unsure of again and taking the time to read the documentation slowly and properly. As always feel free to ask for help on Discord.
+
+Don't feel obligated to memorize how to implement something like a navbar component or even something as simple as a jumbotron. Even after years of experience highly skilled developers still constantly reference documentation, especially so with Bootstrap.
+
+It's encouraged you play around after completion of the activity and experiment. It will go a long way to help support what you've learned.
